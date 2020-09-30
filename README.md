@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/gilsonsilvati/ponto-inteligente-api.svg?branch=master)](https://travis-ci.org/gilsonsilvati/ponto-inteligente-api)
 # Ponto Inteligente API
 API do Sistema de Ponto Inteligente com Java e Spring Boot 2.
 
