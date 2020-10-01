@@ -12,6 +12,7 @@ import java.util.List;
 @Getter @Setter
 @NoArgsConstructor
 @AllArgsConstructor
+@ToString
 public class Empresa extends EntidadeBase {
 
     @Column(name = "razao_social", nullable = false)

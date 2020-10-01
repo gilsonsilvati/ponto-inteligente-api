@@ -1,20 +1,18 @@
 package br.com.ponto.api.repositories;
 
-import java.security.NoSuchAlgorithmException;
-import java.util.Optional;
-
 import br.com.ponto.api.entities.Empresa;
 import br.com.ponto.api.entities.Funcionario;
 import br.com.ponto.api.enums.Perfil;
 import br.com.ponto.api.utils.PasswordUtils;
 import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.ActiveProfiles;
-import org.springframework.test.context.junit4.SpringRunner;
+
+import java.security.NoSuchAlgorithmException;
+import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;

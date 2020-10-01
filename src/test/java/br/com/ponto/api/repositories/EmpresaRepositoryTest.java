@@ -2,7 +2,6 @@ package br.com.ponto.api.repositories;
 
 import br.com.ponto.api.entities.Empresa;
 import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -2,10 +2,7 @@ package br.com.ponto.api.entities;
 
 import br.com.ponto.api.entities.base.EntidadeBase;
 import br.com.ponto.api.enums.Tipo;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 import javax.persistence.*;
 import java.time.LocalDateTime;
@@ -13,6 +10,7 @@ import java.time.LocalDateTime;
 @Entity
 @Table(name = "lancamento")
 @Getter @Setter
+@ToString
 @NoArgsConstructor
 @AllArgsConstructor
 public class Lancamento extends EntidadeBase {
