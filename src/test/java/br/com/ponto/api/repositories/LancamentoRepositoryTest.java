@@ -49,7 +49,7 @@ public class LancamentoRepositoryTest {
 
 	@AfterEach
 	public void tearDown() throws Exception {
-		this.empresaRepository.deleteAll();
+		empresaRepository.deleteAll();
 	}
 
 	@Test
