@@ -29,8 +29,13 @@ public class Funcionario extends EntidadeBase {
     @Column(nullable = false)
     private String cpf;
 
+    @Column(name = "valor_hora")
     private BigDecimal valorHora;
+
+    @Column(name = "qtd_horas_trabalho_dia")
     private Float quantidadeHorasTrabalhadoDia;
+
+    @Column(name = "qtd_horas_almoco")
     private Float quantidadeHorasAlmoco;
 
     @Column(nullable = false)

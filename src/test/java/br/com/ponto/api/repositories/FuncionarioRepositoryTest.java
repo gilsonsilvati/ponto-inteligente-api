@@ -3,7 +3,6 @@ package br.com.ponto.api.repositories;
 import br.com.ponto.api.entities.Empresa;
 import br.com.ponto.api.entities.Funcionario;
 import br.com.ponto.api.enums.Perfil;
-import br.com.ponto.api.utils.PasswordUtils;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -80,7 +79,8 @@ public class FuncionarioRepositoryTest {
 		var funcionario = new Funcionario();
 		funcionario.setNome("Fulano de Tal");
 		funcionario.setPerfil(Perfil.ROLE_USUARIO);
-		funcionario.setSenha(PasswordUtils.gerarBCrypt("123456"));
+//		funcionario.setSenha(PasswordUtils.gerarBCrypt("123456"));
+		funcionario.setSenha("123456");
 		funcionario.setCpf(CPF);
 		funcionario.setEmail(EMAIL);
 		funcionario.setEmpresa(empresa);
