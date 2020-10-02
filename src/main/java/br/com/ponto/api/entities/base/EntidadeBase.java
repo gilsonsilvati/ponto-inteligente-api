@@ -3,14 +3,12 @@ package br.com.ponto.api.entities.base;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
-import lombok.ToString;
 
 import javax.persistence.*;
 import java.time.LocalDate;
 
 @MappedSuperclass
 @Getter @Setter
-@ToString
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
 public class EntidadeBase {
 

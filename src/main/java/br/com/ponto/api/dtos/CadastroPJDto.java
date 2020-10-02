@@ -3,7 +3,6 @@ package br.com.ponto.api.dtos;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import lombok.ToString;
 import org.hibernate.validator.constraints.Length;
 import org.hibernate.validator.constraints.br.CNPJ;
 import org.hibernate.validator.constraints.br.CPF;
@@ -13,7 +12,6 @@ import javax.validation.constraints.NotEmpty;
 
 @NoArgsConstructor
 @Getter @Setter
-@ToString
 public class CadastroPJDto {
 
 	private Long id;

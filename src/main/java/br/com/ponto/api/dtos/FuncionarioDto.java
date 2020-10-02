@@ -3,7 +3,6 @@ package br.com.ponto.api.dtos;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import lombok.ToString;
 import org.hibernate.validator.constraints.Length;
 
 import javax.validation.constraints.Email;
@@ -12,7 +11,6 @@ import java.util.Optional;
 
 @NoArgsConstructor
 @Getter @Setter
-@ToString
 public class FuncionarioDto {
 	
 	private Long id;

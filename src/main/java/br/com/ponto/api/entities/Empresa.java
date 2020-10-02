@@ -1,10 +1,12 @@
 package br.com.ponto.api.entities;
 
 import br.com.ponto.api.entities.base.EntidadeBase;
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 import javax.persistence.*;
-import java.time.LocalDate;
 import java.util.List;
 
 @Entity
@@ -12,7 +14,6 @@ import java.util.List;
 @Getter @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-@ToString
 public class Empresa extends EntidadeBase {
 
     @Column(name = "razao_social", nullable = false)

@@ -2,7 +2,10 @@ package br.com.ponto.api.entities;
 
 import br.com.ponto.api.entities.base.EntidadeBase;
 import br.com.ponto.api.enums.Perfil;
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 import javax.persistence.*;
 import java.math.BigDecimal;
@@ -12,7 +15,6 @@ import java.util.Optional;
 @Entity
 @Table(name = "funcionario")
 @Getter @Setter
-@ToString
 @NoArgsConstructor
 @AllArgsConstructor
 public class Funcionario extends EntidadeBase {
